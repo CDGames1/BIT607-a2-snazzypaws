@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-NZ">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Booking- Snazzy Paws Grooming">
+  <title>Booking - Snazzy Paws Grooming</title>
+  <link rel="stylesheet" href="css/styles.min.css">
+</head>
+<body>
+  <header>
+    <nav aria-label="Main navigation">
+      <a class="brand" href="index.html">Snazzy Paws Grooming</a>
+      <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="booking.html" aria-current="page">Booking</a></li>
+          <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="main-content">
+    <section>
+      <div class="page-heading">
+        <h1>Booking request</h1>
+        <p>Enter your details and your dog detail below to request a grooming visit</p>
+      </div>
+      <div class="form-layout">
+        <div class="form-card">
+          <form action="#" method="post" aria-labelledby="booking-form-title">
+            <h2 id="booking-form-title">Dog grooming details</h2>
+            <div>
+              <label for="owner-name">Owner name</label>
+              <input id="owner-name" name="owner-name" type="text" autocomplete="name" required>
+            </div>
+            <div>
+              <label for="owner-email">Email address</label>
+              <input id="owner-email" name="owner-email" type="email" autocomplete="email" required>
+            </div>
+            <div class="form-row">
+              <div>
+                <label for="dog-name">Dog name</label>
+                <input id="dog-name" name="dog-name" type="text" required>
+              </div>
+              <div>
+                <label for="dog-breed">Breed</label>
+                <input id="dog-breed" name="dog-breed" type="text" required>
+              </div>
+            </div>
+            <div>
+              <label for="dog-age">Dogs age</label>
+              <input id="dog-age" name="dog-age" type="number" min="0" max="30" step="1" inputmode="numeric" aria-describedby="dog-age-help" required>
+              <p class="help-text" id="dog-age-help">Enter the age in full whole years please and Use 0 for a puppy under one year.</p>
+            </div>
+            <button class="button" type="submit">Submit booking Request</button>
+          </form>
+        </div>
+        <aside class="info-card" aria-labelledby="before-booking-title">
+          <h2 id="before-booking-title">Before booking</h2>
+          <p>Check the services page for a price quote and an guide and If your dog has coat matting, sensitive skin or needs extra support during grooming then please mention this when contacting the salon before your appointment.</p>
+        </aside>
+      </div>
+    </section>
+
+  </main>
+  <footer>
+    <div class="footer-inner">
+      <div>
+        <h2>Snazzy Paws Grooming</h2>
+        <p>Dog Grooming in Hamilton</p>
+        <p><a href="contact.html">Contact us</a> to ask a question or book</p>
+      </div>
+      <div>
+        <h2>Opening hours</h2>
+        <p>Monday to Saturday: 9:00 am to 5:00 pm</p>
+        <p>Sunday - Closed</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

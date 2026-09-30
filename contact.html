@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-NZ">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact - Snazzy Paws Grooming">
+  <title>Contact - Snazzy Paws Grooming</title>
+  <link rel="stylesheet" href="css/styles.min.css">
+</head>
+<body>
+  <header>
+    <nav aria-label="Main navigation">
+      <a class="brand" href="index.html">Snazzy Paws Grooming</a>
+      <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="booking.html">Booking</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="main-content">
+    <section>
+      <div class="page-heading">
+        <h1>Contact Snazzy Paws Grooming</h1>
+        <p>Use the form for general questions or any inquirys or view the map for our service area in Hamilton new Zealand</p>
+      </div>
+      <div class="contact-layout">
+        <div class="map-card">
+          <h2>Location</h2>
+          <iframe class="map-frame" title="Map showing Hamilton, New Zealand" src="https://www.openstreetmap.org/export/embed.html?bbox=175.2400%2C-37.8200%2C175.3100%2C-37.7600&amp;layer=mapnik&amp;marker=-37.7870%2C175.2793" loading="lazy"></iframe>
+          <p><a href="https://www.openstreetmap.org/?mlat=-37.7870&amp;mlon=175.2793#map=13/-37.7870/175.2793">Open the map in a new page</a></p>
+        </div>
+        <div class="form-card">
+          <form action="#" method="post" aria-labelledby="contact-form-title">
+            <h2 id="contact-form-title">Send an message</h2>
+            <div>
+              <label for="contact-name">Name</label>
+              <input id="contact-name" name="contact-name" type="text" autocomplete="name" required>
+            </div>
+            <div>
+              <label for="contact-email">Email address</label>
+              <input id="contact-email" name="contact-email" type="email" autocomplete="email" required>
+            </div>
+            <div>
+              <label for="contact-phone">Phone No.</label>
+              <input id="contact-phone" name="contact-phone" type="tel" autocomplete="tel" inputmode="tel" required>
+            </div>
+            <div>
+              <label for="comment">Comment</label>
+              <textarea id="comment" name="comment" required></textarea>
+            </div>
+            <button class="button" type="submit">Submit message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <footer>
+    <div class="footer-inner">
+      <div>
+        <h2>Snazzy Paws Grooming</h2>
+        <p>Dog Grooming in Hamilton</p>
+        <p><a href="contact.html">Contact us</a> to ask a question or book</p>
+      </div>
+      <div>
+        <h2>Opening hours</h2>
+        <p>Monday to Saturday: 9:00 am to 5:00 pm</p>
+        <p>Sunday - Closed</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
